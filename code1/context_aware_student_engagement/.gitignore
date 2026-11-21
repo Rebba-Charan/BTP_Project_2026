@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+exp/
+batch_predictions/
+predictions_*.csv
+accuracy_matrix_*.csv
+videos/
+*.mp4
+*.pth
+*.pt
+*.onnx

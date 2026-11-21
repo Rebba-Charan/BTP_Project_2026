@@ -1,0 +1,25 @@
+# Python 3.13 runtime dependencies.
+numpy>=2.2,<3
+pandas>=2.2
+Pillow>=11
+opencv-python>=4.10
+
+# ViFi-CLIP and the Faster R-CNN detector.
+torch==2.10.0
+torchvision==0.25.0
+timm>=1.0.20
+PyYAML>=6.0
+yacs>=0.1.8
+ftfy>=6.3
+regex>=2024.11
+tqdm>=4.67
+termcolor>=2.4
+scikit-learn>=1.5
+
+# Engagement classification backends.
+transformers>=4.46
+accelerate>=1.0
+openai>=1.0
+
+# Optional YOLO detector backend (the default Faster R-CNN path does not need it).
+# ultralytics>=8.3

@@ -1,0 +1,56 @@
+Activate environment
+cd /scratch/rpp/charan/code1/context_aware_student_engagement
+source .venv/bin/activate
+Code1 :
+
+Single-student demo
+ENGAGEMENT_HEADLESS=1 .venv/bin/python SingleStudentDemo.py
+
+
+Evaluate single-student predictions
+.venv/bin/python evaluate_single_student.py
+
+
+Multiple-student demo
+ENGAGEMENT_HEADLESS=1 .venv/bin/python MultipleStudentsDemo.py
+
+
+Evaluate multiple-student predictions
+.venv/bin/python evaluate_multi_student.py
+
+
+Batch classify action folders
+.venv/bin/python batch_classify_dataset.py \
+  --dataset "/scratch/rpp/NAS/btp_charan/EduAction-A-college-student-action-dataset-for-classroom-attention-estimation-main" \
+  --output-dir batch_predictions
+
+code2:
+
+Test dependencies, model, and video loading
+
+.venv/bin/python finetune.py \
+  --dry-run \
+  --device cuda \
+  --resume pretrained_action_recog_models/ckpt_epoch_30.pth
+
+For CPU:  
+.venv/bin/python finetune.py \
+  --dry-run \
+  --device cpu \
+  --resume pretrained_action_recog_models/ckpt_epoch_30.pth
+
+Run LoRA fine-tuning
+
+.venv/bin/python finetune.py \
+  --device cuda \
+  --resume pretrained_action_recog_models/ckpt_epoch_30.pth
+
+
+Evaluate Sleeping and Talking only
+
+.venv/bin/python evaluate_new_classes.py \
+  --device cuda \
+  --adapter outputs/best_lora.pth
+
+View training results  
+grep "epoch=" outputs/log_rank0.txt

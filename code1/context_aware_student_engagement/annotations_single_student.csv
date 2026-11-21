@@ -1,0 +1,41 @@
+video_name,start_time,end_time,true_label
+dataset_20230713-133150_0_S02_T76_E2.mp4,0.0,3.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,3.0,6.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,6.0,9.0,Looking down without reading/writing
+dataset_20230713-133150_0_S02_T76_E2.mp4,9.0,12.0,Looking down without reading/writing
+dataset_20230713-133150_0_S02_T76_E2.mp4,12.0,15.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,15.0,18.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,18.0,21.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,21.0,24.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,24.0,27.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,27.0,30.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,30.0,33.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,33.0,36.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,36.0,39.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,39.0,42.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,42.0,45.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,45.0,48.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,48.0,51.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,51.0,54.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,54.0,57.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,57.0,60.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,60.0,63.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,63.0,66.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,66.0,69.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,69.0,72.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,72.0,75.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,75.0,78.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,78.0,81.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,81.0,84.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,84.0,87.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,87.0,90.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,90.0,93.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,93.0,96.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,96.0,99.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,99.0,102.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,102.0,105.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,105.0,108.0,Listening
+dataset_20230713-133150_0_S02_T76_E2.mp4,108.0,111.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,111.0,114.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,114.0,117.0,Writing with pen/stylus
+dataset_20230713-133150_0_S02_T76_E2.mp4,117.0,120.0,Writing with pen/stylus
